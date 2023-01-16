@@ -12,6 +12,9 @@ class PageController extends Controller
 
         $movies = Movie::all();
 
+        // $movies = Movie::where('title', 'Il padrino')->get();
+        // ->get() per recuperare il risultato di un filtraggio
+
         // dd($movies);
 
         return view('welcome',compact('movies'));

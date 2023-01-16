@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Movies</title>
-</head>
-<body>
-    
-</body>
-</html>
+
+@extends('layouts.app')
+
+
+    @section('contenuto-main')
+    <h1>Lista film presenti nel Database:</h1>
+    <h2></h2>
+    @endsection

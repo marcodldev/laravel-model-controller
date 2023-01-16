@@ -7,6 +7,14 @@
     <title>Movies</title>
 </head>
 <body>
-    
+    <header>
+        @include('components.header')
+    </header>
+    <main>
+        @yield('contenuto-main')
+    </main>
+    <footer>
+        @include('components.footer')
+    </footer>
 </body>
 </html>
